@@ -1,5 +1,5 @@
 body {
-  background-color: #2e4a99;
+  background-color: #9b99eb;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -36,20 +36,24 @@ nav a {
 input {
   font-size: 16px;
   padding: 10px;
+  border: 2px  #fff;
+  border-radius: 5px;
 }
 
 button {
   margin: 5px;
   cursor: pointer;
-  border: 2px solid #fff;
-  background-color: #2e4a99;
+  border: 2px  #fff;
+  background-color: #5e438f;
   color: #fff;
   padding: 10px;
   font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
 }
 
 button:hover {
-  background-color: #5788fa;
+  background-color: #7e7dbe;
   transition: background-color 0.2s;
 }
 
